@@ -1,0 +1,22 @@
+70:ae:6e:31
+========= { filename: 'ate_english.wav',
+  gain: 100,
+  debug: true,
+  player: 'aplay',
+  device: 'plughw:0,0' }
+70:ae:6e:31
+========= { filename: 'ate_english.wav',
+  gain: 100,
+  debug: true,
+  player: 'aplay',
+  device: 'plughw:0,0' }
+Done with playback!
+========= { filename: 'punching_english.wav',
+  gain: 100,
+  debug: true,
+  player: 'aplay',
+  device: 'plughw:0,0' }
+Done with playback!
+finished all the files
+Done with playback!
+finished all the files

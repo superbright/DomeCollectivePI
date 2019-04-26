@@ -14,14 +14,17 @@ nfcReader.poll(); // polls for the next card
 nfcReader.on('card', card => {
     console.log(card);
 
+   // let result = await nfcReader.transceive(Buffer.from([0]));
+   // console.log(result);
+	
     async function process() {
         // Sending data:
-        // let result = await nfcReader.transceive(Buffer.from([0]));
-        // console.log(result);
+        let result = await nfcReader.transceive(Buffer.from([0]));
+        console.log(result);
 
         await nfcReader.release();
         console.log('card released');
-       playFile(0);
+        playFile(0);
         nfcReader.poll(); // polls for the next card
     }
 
